@@ -1,4 +1,5 @@
 #!/bin/bash
+
 docker pull nginx
 docker stop nginx || true
 docker rm nginx || true
